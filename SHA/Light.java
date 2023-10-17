@@ -3,10 +3,11 @@ package SHA;
 public class Light implements Button{
 
 
+
     @Override
     public String powerOn() {
-
-        return "The Light is powered on." ;
+        System.out.println("asasa");
+        return "The Light is powered on.";
     }
 
     @Override
