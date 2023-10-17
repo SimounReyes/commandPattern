@@ -1,4 +1,4 @@
-package SHA;
+package commandPattern;
 
 public class PowerOff implements Command {
 

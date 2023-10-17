@@ -1,4 +1,4 @@
-package SHA;
+package commandPattern;
 
 public interface Button {
     public String powerOn();

@@ -1,4 +1,4 @@
-package SHA;
+package commandPattern;
 
 import java.util.Scanner;
 public class ViewerApp {

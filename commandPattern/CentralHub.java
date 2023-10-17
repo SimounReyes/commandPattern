@@ -1,4 +1,4 @@
-package SHA;
+package commandPattern;
 
 public class CentralHub {
     private Command command;
