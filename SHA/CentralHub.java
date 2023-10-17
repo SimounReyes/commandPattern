@@ -11,7 +11,7 @@ public class CentralHub {
     }
 
     public void clickButton(){
-        command.execute();
+        System.out.println(command.execute());
     }
 
 

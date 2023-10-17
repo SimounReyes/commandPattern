@@ -2,14 +2,14 @@ package SHA;
 
 public class PowerOn implements Command {
 
-    private Button botton;
+    private Button button;
 
-    public PowerOn(Button botton) {
-        this.botton = botton;
+    public PowerOn(Button button) {
+        this.button = button;
     }
 
     @Override
     public String execute() {
-        return botton.powerOn();
+        return button.powerOn();
     }
 }

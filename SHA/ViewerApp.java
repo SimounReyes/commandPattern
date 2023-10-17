@@ -1,7 +1,6 @@
 package SHA;
 
 import java.util.Scanner;
-
 public class ViewerApp {
     public static void main(String[] args){
 
@@ -38,7 +37,9 @@ public class ViewerApp {
             System.out.println("3. Music Player");
             System.out.println("4. Open All three appliances");
             System.out.println("5. Terminate Console");
+            System.out.print("[1-5]: ");
             num = eat.nextInt();
+            System.out.println();
             switch(num) {
                 case 1:
                     cb.setCommand(lightsOn);
@@ -53,6 +54,7 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(lightsOff);
                     cb.clickButton();
+                    System.out.println("------------------------------------------------\n");
                     break;
                 case 2 :
                     cb.setCommand(acOn);
@@ -67,6 +69,7 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(acOff);
                     cb.clickButton();
+                    System.out.println("------------------------------------------------\n");
                     break;
                 case 3 :
                     cb.setCommand(musicPlayerOn);
@@ -81,8 +84,10 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(musicPlayerOff);
                     cb.clickButton();
+                    System.out.println("------------------------------------------------\n");
                     break;
                 case 4 :
+                    System.out.println("LIGHT");
                     cb.setCommand(lightsOn);
                     cb.clickButton();
                     cb.setCommand(lightsBrightUp);
@@ -91,6 +96,7 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(lightsOff);
                     cb.clickButton();
+                    System.out.println("\nAIR-CONDITIONING UNIT");
                     cb.setCommand(acOn);
                     cb.clickButton();
                     cb.setCommand(acTempUP);
@@ -99,6 +105,7 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(acOff);
                     cb.clickButton();
+                    System.out.println("\nMUSIC PLAYER");
                     cb.setCommand(musicPlayerOn);
                     cb.clickButton();
                     cb.setCommand(musicPlayerVolUp);
@@ -107,14 +114,15 @@ public class ViewerApp {
                     cb.clickButton();
                     cb.setCommand(musicPlayerOff);
                     cb.clickButton();
+                    System.out.println("------------------------------------------------\n");
                     break;
                 case 5 :
-                    System.out.println("terminating");
+                    System.out.println("Terminating Console!\n------------------------------------------------\n" +
+                            "Simoun Irwin G. Reyes|3BSCS-2");
                     break;
                 default:
+
             }
-
         }
-
     }
 }

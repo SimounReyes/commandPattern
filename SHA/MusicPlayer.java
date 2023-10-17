@@ -9,7 +9,7 @@ public class MusicPlayer implements Button{
 
     @Override
     public String powerOff() {
-        return "The Music Player is powered off";
+        return "The Music Player is powered off.";
     }
 
     @Override
@@ -19,6 +19,6 @@ public class MusicPlayer implements Button{
 
     @Override
     public String minus() {
-        return "The Music Player's volume has increased!";
+        return "The Music Player's volume has decreased!";
     }
 }

@@ -10,7 +10,7 @@ public class AirConditionUnit implements Button {
 
     @Override
     public String powerOff() {
-        return "The Air-Conditioning Unit is powered on.";
+        return "The Air-Conditioning Unit is powered off.";
     }
 
     @Override

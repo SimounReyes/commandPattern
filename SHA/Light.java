@@ -6,7 +6,6 @@ public class Light implements Button{
 
     @Override
     public String powerOn() {
-        System.out.println("asasa");
         return "The Light is powered on.";
     }
 
